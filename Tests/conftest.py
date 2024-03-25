@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 import pytest
 
-@pytest.fixture(scope='class')
+@pytest.fixture()
 def setup_teardown(request):
         s = Service()
         chromeOptions = webdriver.ChromeOptions()

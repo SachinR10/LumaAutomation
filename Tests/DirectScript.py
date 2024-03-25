@@ -27,7 +27,7 @@ driver.find_element(By.ID,"send2").click()
 
 time.sleep(3)
 
-
+#//div[@class='page messages']
 
 driver.close()
 driver.quit()

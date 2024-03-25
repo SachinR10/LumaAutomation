@@ -5,6 +5,7 @@ class SignInPage:
     UserEmail = (By.ID,"email")
     Password = (By.ID,"pass")
     SignInButton = (By.ID,"send2")
+    alert_box = (By.XPATH,"//div[@class='page messages']")
 
     def __init__(self,driver):
         self.driver = driver
@@ -18,5 +19,7 @@ class SignInPage:
     def ClickSubmit(self):
         self.driver.find_element(*SignInPage.SignInButton).click()
         #to avoid circular imports
-        from PageObjects.homePage import HomePage
-        return HomePage(self.driver)
+        #from PageObjects.homePage import HomePage
+        #return HomePage(self.driver)
+    def getAlertText(self):
+        return self.driver.find_element(*SignInPage.alert_box).text
