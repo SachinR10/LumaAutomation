@@ -1,0 +1,21 @@
+07/Apr/24  01:13:17 - TestLogin - INFO - strated TS- Login with correct creds
+07/Apr/24  01:13:19 - TestLogin - INFO - Entered Customer Login Page
+07/Apr/24  01:13:25 - TestLogin - INFO - Login with correct creds success
+07/Apr/24  01:13:39 - TestLogin - INFO - strated TS- Login with incorrect creds
+07/Apr/24  01:13:40 - TestLogin - INFO - Entered Custom Login Page
+07/Apr/24  01:13:43 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
+07/Apr/24  01:13:43 - TestLogin - INFO - Correct Pop up message appeared
+07/Apr/24  01:16:58 - TestLogin - INFO - strated TS- Login with correct creds
+07/Apr/24  01:17:00 - TestLogin - INFO - Entered Customer Login Page
+07/Apr/24  01:17:05 - TestLogin - INFO - Login with correct creds success
+07/Apr/24  01:17:19 - TestLogin - INFO - strated TS- Login with incorrect creds
+07/Apr/24  01:17:21 - TestLogin - INFO - Entered Custom Login Page
+07/Apr/24  01:17:23 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
+07/Apr/24  01:17:23 - TestLogin - INFO - Correct Pop up message appeared
+07/Apr/24  01:18:19 - TestLogin - INFO - strated TS- Login with correct creds
+07/Apr/24  01:18:20 - TestLogin - INFO - Entered Customer Login Page
+07/Apr/24  01:18:26 - TestLogin - INFO - Login with correct creds success
+07/Apr/24  01:18:38 - TestLogin - INFO - strated TS- Login with incorrect creds
+07/Apr/24  01:18:40 - TestLogin - INFO - Entered Custom Login Page
+07/Apr/24  01:18:42 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
+07/Apr/24  01:18:43 - TestLogin - INFO - Correct Pop up message appeared
