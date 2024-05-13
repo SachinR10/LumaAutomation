@@ -6,7 +6,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from PageObjects.homePage import HomePage
 from Utilities.logModule import LogModule
-
+from Utilities.readJSON import ReadJson
+import pytest
 
 class TestLogin(BaseClass):
     logger = LogModule.get_logger("TestLogin")
@@ -20,9 +21,9 @@ class TestLogin(BaseClass):
         else:
             self.logger.error("Failed to enter Custom Login Page, Current Page title = %s", self.driver.title)
             assert False
-
-        signinpage.SetUserEmail().send_keys("sachinrhumcha@gmail.com")
-        signinpage.SetPassword().send_keys("Scout0p@10")
+        LoginCorrectCreds = ReadJson('D:/Projects/LumaAutomation/Data/LoginCorrectCreds.json')
+        signinpage.SetUserEmail().send_keys(LoginCorrectCreds.getData("Email"))
+        signinpage.SetPassword().send_keys(LoginCorrectCreds.getData("Password"))
         signinpage.ClickSubmit()
         homepage = HomePage(self.driver)
         welcomeText = homepage.GetWelcomeText()
@@ -34,7 +35,7 @@ class TestLogin(BaseClass):
             self.logger.error("Login with correct creds failed")
             assert False
 
-
+    
     def test_login_incorrect_creds(self):
         self.logger.info("strated TS- Login with incorrect creds")
         homePage = HomePage(self.driver)
@@ -43,9 +44,13 @@ class TestLogin(BaseClass):
             self.logger.info("Entered Custom Login Page")
         else:
             self.logger.error("Failed to enter Custom Login Page, Current Page title = %s", self.driver.title)
-
-        SignInPage.SetUserEmail().send_keys("seafdffdf@gmail.com")
-        SignInPage.SetPassword().send_keys("ScoutOp@10")
+        
+        
+        LoginIncorrectCreds = ReadJson('D:/Projects/LumaAutomation/Data/LoginIncorrectCreds.json')
+        
+        
+        SignInPage.SetUserEmail().send_keys(LoginIncorrectCreds.getData("Email"))
+        SignInPage.SetPassword().send_keys(LoginIncorrectCreds.getData("Password"))
         SignInPage.ClickSubmit()
 
         if self.driver.title == "Customer Login":

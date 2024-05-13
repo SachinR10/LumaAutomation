@@ -19,3 +19,35 @@
 07/Apr/24  01:18:40 - TestLogin - INFO - Entered Custom Login Page
 07/Apr/24  01:18:42 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
 07/Apr/24  01:18:43 - TestLogin - INFO - Correct Pop up message appeared
+13/May/24  10:36:46 - TestLogin - INFO - strated TS- Login with correct creds
+13/May/24  10:36:47 - TestLogin - INFO - Entered Customer Login Page
+13/May/24  10:36:52 - TestLogin - ERROR - Login with correct creds failed
+13/May/24  10:37:00 - TestLogin - INFO - strated TS- Login with incorrect creds
+13/May/24  10:37:02 - TestLogin - INFO - Entered Custom Login Page
+13/May/24  10:37:04 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
+13/May/24  10:37:04 - TestLogin - INFO - Correct Pop up message appeared
+13/May/24  10:49:57 - TestLogin - INFO - strated TS- Login with correct creds
+13/May/24  10:49:58 - TestLogin - INFO - Entered Customer Login Page
+13/May/24  10:50:06 - TestLogin - INFO - Login with correct creds success
+13/May/24  10:50:18 - TestLogin - INFO - strated TS- Login with incorrect creds
+13/May/24  10:50:19 - TestLogin - INFO - Entered Custom Login Page
+13/May/24  10:50:22 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
+13/May/24  10:50:22 - TestLogin - INFO - Correct Pop up message appeared
+13/May/24  12:09:20 - TestLogin - INFO - strated TS- Login with correct creds
+13/May/24  12:09:22 - TestLogin - INFO - Entered Customer Login Page
+13/May/24  12:09:27 - TestLogin - INFO - Login with correct creds success
+13/May/24  12:09:39 - TestLogin - INFO - strated TS- Login with incorrect creds
+13/May/24  12:09:41 - TestLogin - INFO - Entered Custom Login Page
+13/May/24  12:13:30 - TestLogin - INFO - strated TS- Login with incorrect creds
+13/May/24  12:13:32 - TestLogin - INFO - Entered Custom Login Page
+13/May/24  12:14:24 - TestLogin - INFO - strated TS- Login with incorrect creds
+13/May/24  12:14:26 - TestLogin - INFO - Entered Custom Login Page
+13/May/24  12:14:28 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
+13/May/24  12:14:28 - TestLogin - INFO - Correct Pop up message appeared
+13/May/24  12:14:44 - TestLogin - INFO - strated TS- Login with correct creds
+13/May/24  12:14:45 - TestLogin - INFO - Entered Customer Login Page
+13/May/24  12:14:50 - TestLogin - INFO - Login with correct creds success
+13/May/24  12:15:02 - TestLogin - INFO - strated TS- Login with incorrect creds
+13/May/24  12:15:03 - TestLogin - INFO - Entered Custom Login Page
+13/May/24  12:15:06 - TestLogin - INFO - Still in Custome Login Page When incorrect creads entered
+13/May/24  12:15:06 - TestLogin - INFO - Correct Pop up message appeared
