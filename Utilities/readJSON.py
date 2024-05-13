@@ -6,5 +6,5 @@ class ReadJson():
 
     def getData(self,field):
         ptr = open(self.path)
-        data = json.loads(ptr.read())
+        data = json.load(ptr)
         return data[field]
